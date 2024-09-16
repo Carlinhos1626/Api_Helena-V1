@@ -58,7 +58,7 @@ async function fetchHelenaData(pageNumber, pageSize) {
     url: `https://api.helena.run/chat/v1/session?Status=COMPLETED&DepartmentId=32024ebf-6cc1-469a-acec-8e70ad5463c3&IncludeDetails=AgentDetails&IncludeDetails=ContactDetails&IncludeDetails=ClassificationDetails&IncludeDetails=ChannelDetails&PageNumber=${pageNumber}&PageSize=${pageSize}`,
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer pn_cuqmdfzkWQzXhYQQ9OWJEui06tTgBBr5osCWulV2w'
+      Authorization: 'Bearer TOKEN'
     }
   };
 
