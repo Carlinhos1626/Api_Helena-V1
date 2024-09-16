@@ -21,7 +21,7 @@ const pageSize = 100;
 const apiOptions = {
   headers: {
     accept: 'application/json',
-    Authorization: 'Bearer pn_cuqmdfzkWQzXhYQQ9OWJEui06tTgBBr5osCWulV2w'
+    Authorization: 'Bearer TOKEN'
   }
 };
 
